@@ -76,6 +76,9 @@ a#pdf:hover { background: #222; }
 .yui-gf .yui-u{width:80.2%;}
 .yui-gf div.first{width:12.3%;}
 
+#doc2 {
+	box-shadow: 1px 6px 20px 6px rgba(0,0,0,0.14);
+}
 
 body {
 	-webkit-font-smoothing: antialiased;
