@@ -9,12 +9,126 @@
     <meta name="description" content="Frontend Website Developer from Sydney focused on campaigning and crowdfunding">
     <meta name="author" content="Paul Day">
     <meta name="keywords" content="Charity, Political Party, Campaigner, Digital, Campaigning, Developer, Website, Petition, Donations, Crowdfunding, JavaScript, Frontend, Online campaigning, visualisation, Data, Open data, Sydney, Australia">
-
     <title>Paul Day - Sydney Web Developer for Campaigning</title>
-    <link href="bootstrap.css" rel="stylesheet">
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link href='//fonts.googleapis.com/css?family=Roboto:300,900,100' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,900" rel="stylesheet">
+    <style>
 
+      body {
+        background: #43cea2;
+        background: -webkit-linear-gradient(to left, #43cea2 , #185a9d);
+        background: linear-gradient(to left, #43cea2 , #185a9d);
+      }
+
+      div {
+        float: left;
+        width: 100%;
+        box-sizing: border-box;
+      }
+
+      #heading {
+        margin-top: 50px;
+        margin-bottom: 200px
+      }
+
+      #heading a {
+        opacity: 0.5
+      }
+
+      #social {
+        margin: 200px 0;
+        font-size: 30px;
+      }
+
+      #history, #skills {
+        margin: 100px 0
+      }
+
+      #history a {
+        opacity: 0.5
+      }
+
+      #skills h3 {
+        width: 25%;
+        float: left;
+      }
+
+      #skills a {
+        border: 1px solid #fff;
+        border-radius: 10px;
+        padding: 20px;
+        float: left;
+        clear: both;
+        margin-top: 40px;
+        text-transform: capitalize;
+
+      }
+
+      #history img {
+        width: 150px
+      }
+
+      #previews a {
+        float:left;
+        margin:0 0 100px;
+        width:33.333%;
+        max-width:400px;
+        display:inline-block;
+      }
+
+      #previews h4 {
+        padding: 10px 40px 10px 0
+      }
+
+      * {
+        font-family: 'Roboto', sans-serif;
+      }
+
+      p {
+        color: #999
+      }
+
+      img {
+        width:100%;
+      }
+
+      a {
+        text-decoration: none;
+        color:#fff !important;
+      }
+
+      h1 {
+        font-size: 60px;
+        font-weight: 100;
+        color: #fff;
+      }
+
+      h2, h3, h5 {
+        font-weight: 100;
+        color: #fff;
+        opacity: 0.5
+      }
+
+      h2 {
+        letter-spacing: 0.3px;
+      }
+
+      h4 {
+        margin-top: -4px !important;
+        font-weight: 300;
+        color: #484848;
+        background: #fff;
+        font-size: 13px;
+        height: 120px;
+        padding: 30px 40px !important;
+        letter-spacing: 0.3px;
+        line-height: 20px;
+        width: 100%;
+        float: left;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+    </style>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -26,86 +140,63 @@
 
     </script>
 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
 </head>
 
-<body id="page-top">
+<body>
 
-<div id="gradient"></div>
-
-
-    <!-- Intro Header -->
-    <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div id="cubeBox">
-                        <div class="cube">
-                          <div class="faces-top">
-                            <div class="face"></div>
-                            <div class="face"></div>
-                            <div class="face"></div>
-                            <div class="face"></div>
-                            <div class="face"></div>
-                            <div class="face"></div>
-                            <div class="face"></div>
-                            <div class="face"></div>
-                            <div class="face"></div>
-                            <div class="face"></div>
-                          </div>
-                        </div>
-                        </div>
-                        <h1 class="brand-heading">Paul Day</h1>
-                        <p class="intro-text">Fullstack Developer<br>
-                        <span style="font-size:14px !important;color:rgba(255,255,255,0.4);">Specialies in crowdfunding and campaigning</span>
-                        </p>
-                        <a href="#current" class="btn btn-circle page-scroll">
-                            <i class="fa fa-angle-double-down animated" style="color:rgba(255,255,255,0.4);"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
+    <div style="padding:100px;">
+        <div id="heading">
+          <h1>Paul Day</h1>
+          <h2>I build startups & campaigning tools for non profits</h2>
+          <a target="_blank" href="https://twitter.com/pauldaydesign"><i class="fa fa-twitter fa-fw"></i></a>
+          <a target="_blank" href="https://github.com/paulstefanday"><i class="fa fa-github fa-fw"></i></a>
+          <a target="_blank" href="mailto:hi@paulday.com.au"><i class="fa fa-envelope fa-fw"></i></a>
         </div>
-    </header>
 
-    <section id="current" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Work</h2>
-                <p >I am currently working at <a href="http://agency.sc">Agency</a> on a <a href="https://raisely.com/">fundraising platform startup</a> and <a href="https://github.com/agency/moments-v2">an open source analytics tool</a>.</p>
-                <p>Also working on a few <a href="https://github.com/paulstefanday">open source projects</a> to improve how charities/political parties campaign online.</p>
-                <p>Previous built a crowfunding startup for Australian NFP's and social enterprises called <a href="https://chuffed.org">Chuffed</a>.</p>
-            </div>
+        <div id="previews">
+          <a href="https://raisely.com" target="_blank">
+            <img src="raisely.jpg" />
+            <h4>A fundraising platform for charities to manage one off donations and regular subscriptions</h4>
+          </a>
+          <a href="http://app.climatetracker.org" target="_blank">
+            <img src="tracker.jpg" />
+            <h4 style="background:#f7f7f7;">A competition & training platform for young journalists to publish articles about climate change</h4>
+          </a>
+          <a href="https://chuffed.org" target="_blank">
+            <img src="chuffed.jpg" />
+            <h4>A crowdfunding platform for good causes</h4>
+          </a>
+          <a href="http://fairnesstest.com" target="_blank">
+            <img src="fairness.jpg" />
+            <h4 style="background:#f7f7f7;">Award winning interactive game to engage youth about foreign aid</h4>
+          </a>
+          <a href="/actu.pdf" target="_blank">
+            <img src="unions.jpg" />
+            <h4>A set of campaigning tools for the 2013 election integrating with Nationbuilder</h4>
+          </a>
         </div>
-    </section>
 
-    <section id="contact" class="container content-section text-center">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2">
-                <h2>Contact</h2>
-                <p>Feel free to get in touch to collaborate or to just say hello!</p>
-                <ul class="list-inline banner-social-buttons">
-                    <li>
-                        <a href="https://twitter.com/pauldaydesign" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/paulstefanday" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                    </li>
-
-                    <li>
-                        <a href="mailto:hi@paulday.com.au" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Email</span></a>
-                    </li>
-
-                </ul>
-            </div>
+        <div id="skills">
+          <h1>Can help you build</h1>
+          <h3><i class="fa fa-check" aria-hidden="true"></i> Mobile app</h3>
+          <h3><i class="fa fa-check" aria-hidden="true"></i> Chat bot</h3>
+          <h3><i class="fa fa-check" aria-hidden="true"></i> Startup</h3>
+          <h3><i class="fa fa-check" aria-hidden="true"></i> Community platform</h3>
+          <h3><i class="fa fa-check" aria-hidden="true"></i> Analytics tool</h3>
+          <h3><i class="fa fa-check" aria-hidden="true"></i> Digital campaign</h3>
+          <a href="mailto:paul@paulday.com.au">Get in touch</a>
         </div>
-    </section>
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Paul Day 2015</p>
-        </div>
-    </footer>
-    <script type="text/javascript" src="bg.js"></script>
+
+        <!-- <div id="history">
+          <h1>Worked with</h1>
+          <a target="_blank" href="http://actu.org.au/"><img src="logos/actu.png" /></a>
+          <a target="_blank" href="http://www.chaser.com.au/"><img src="logos/chaser.png" /></a>
+          <a target="_blank" href="https://agency.sc"><img src="logos/agency.png" /></a>
+          <a target="_blank" href="https://www.acf.org.au/"><img src="logos/acf.png" /></a>
+        </div> -->
+    </div>
 </body>
 
 </html>
