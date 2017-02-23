@@ -13,6 +13,10 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,900" rel="stylesheet">
     <style>
 
+      #container {
+        padding:100px;
+      }
+
       body {
         background: #43cea2;
         background: -webkit-linear-gradient(to left, #43cea2 , #185a9d);
@@ -60,7 +64,6 @@
         clear: both;
         margin-top: 40px;
         text-transform: capitalize;
-
       }
 
       #history img {
@@ -128,6 +131,29 @@
         box-sizing: border-box;
       }
 
+      @media only screen and (max-width: 768px) {
+        #container {
+          padding: 0
+        }
+
+        #previews h4 {
+          /*display: none*/
+        }
+
+        #heading {
+          margin-bottom: 50px
+        }
+
+         h1 {
+           font-size: 40px
+         }
+
+        #previews a, #skills h3 {
+          width: 100%;
+          margin-bottom: 0px
+        }
+      }
+
     </style>
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -146,7 +172,7 @@
 
 <body>
 
-    <div style="padding:100px;">
+    <div id="container">
         <div id="heading">
           <h1>Paul Day</h1>
           <h2>I build startups & campaigning tools for non profits</h2>
